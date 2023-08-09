@@ -1,0 +1,70 @@
+.Github{
+    width: 100%;
+ 
+}
+.LogoGitHub img{
+    width: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+.ContainerSearch{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin:10px auto;
+}
+.FormSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    gap: 5px;
+}
+.InputSearch{
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+&:hover{
+    color:white;
+    background-color: black;
+    transition: 1s ease;
+}
+}
+.ButtonSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+.User{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    gap: 20px;
+}
+.Description{
+    color: aliceblue;
+}
+.UserImage{
+    width: 50%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
